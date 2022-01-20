@@ -48,15 +48,6 @@ angka[c(1,3,4)]
 filter.angka <- angka < 2
 angka[filter.angka]
 
-
-satu <- c(0,1,2,3) #definisi variabel dengan vektor numeric
-nama <- c('alvin', 'faisal', 'sony', 'galang') #definisi variabel dengan vektor string
-
-names(nama) <- c('0','1','2','3') #memberi nama(header) pada data yang telah ada di variabel 'nama'
-names(nama) <- satu #sama seperti diatas namun memakai variabel
-print(nama)
-nama['0']  #menampilkan data dengan memanggil nama headernya
-
 #bantuan
 class(benar) #untuk mengecek tipe variabel
 class(total.uang)
