@@ -53,5 +53,3 @@ class(total.uang)
 help(class) #untuk mencari informasi tentang fungsi 'class'
 
 print(ini)
-
-
