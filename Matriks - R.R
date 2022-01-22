@@ -48,6 +48,7 @@ colMeans(saham.baru) #menghitung rata-rata dari tiap kolom
 
 rataan <- rowMeans(saham.baru)
 saham.baru <- cbind(saham.baru, rataan)
+rb
 
 
 #Aritmetika pada matriks
