@@ -6,3 +6,4 @@ Roadmap Belajar R :
 2. Matrix ✔
 3. Data Kategori ✔
 4. Mengolah Data Frame ✔
+5. Membuat List ✔
