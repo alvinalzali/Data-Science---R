@@ -7,3 +7,4 @@ Roadmap Belajar R :
 3. Data Kategori ✔
 4. Mengolah Data Frame ✔
 5. Membuat List ✔
+6. Membaca file csv dan excel, Menginstal Lib dan Mengaktifkan Lib ✔
