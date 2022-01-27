@@ -8,3 +8,4 @@ Roadmap Belajar R :
 4. Mengolah Data Frame ✔
 5. Membuat List ✔
 6. Membaca file csv dan excel, Menginstal Lib dan Mengaktifkan Lib ✔
+7. Kondisional IF, Else, dan IF-Else ✔
