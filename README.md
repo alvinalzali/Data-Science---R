@@ -10,3 +10,4 @@ Roadmap Belajar R :
 6. Membaca file csv dan excel, Menginstal Lib dan Mengaktifkan Lib ✔
 7. Kondisional IF, Else, dan IF-Else ✔
 8. Looping For, While, Break, Next ✔
+9. Fungsi ✔
