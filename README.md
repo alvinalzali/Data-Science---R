@@ -11,3 +11,4 @@ Roadmap Belajar R :
 7. Kondisional IF, Else, dan IF-Else ✔
 8. Looping For, While, Break, Next ✔
 9. Fungsi ✔
+10. Mengetahui kegunaan fungsi yang sudah ada di R ✔
