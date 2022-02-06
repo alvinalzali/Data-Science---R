@@ -12,4 +12,5 @@ Roadmap Belajar R :
 8. Looping For, While, Break, Next ✔
 9. Fungsi ✔
 10. Mengetahui kegunaan fungsi yang sudah ada di R ✔
-11. Analisis ✔
+11. Analisis Data Waktu✔
+12. Manipulasi Data Frame dengan Dplyr✔
