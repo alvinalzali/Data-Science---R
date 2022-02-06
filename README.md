@@ -12,3 +12,4 @@ Roadmap Belajar R :
 8. Looping For, While, Break, Next ✔
 9. Fungsi ✔
 10. Mengetahui kegunaan fungsi yang sudah ada di R ✔
+11. Analisis ✔
