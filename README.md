@@ -14,3 +14,5 @@ Roadmap Belajar R :
 10. Mengetahui kegunaan fungsi yang sudah ada di R ✔
 11. Analisis Data Waktu✔
 12. Manipulasi Data Frame dengan Dplyr✔
+13. Penggunaan Pipe Operator✔
+14. Penggunaan Fungsi Lib Tidyr✔
