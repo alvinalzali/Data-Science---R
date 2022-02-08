@@ -17,3 +17,6 @@ Roadmap Belajar R :
 13. Penggunaan Pipe Operator✔
 14. Penggunaan Fungsi Lib Tidyr✔
 15. Visualisasi Data dengan ggplot2✔
+
+Implementasi R :
+2.1 Regresi Logistik ✔
