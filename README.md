@@ -16,3 +16,4 @@ Roadmap Belajar R :
 12. Manipulasi Data Frame dengan Dplyr✔
 13. Penggunaan Pipe Operator✔
 14. Penggunaan Fungsi Lib Tidyr✔
+15. Visualisasi Data dengan ggplot2✔
