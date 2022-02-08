@@ -19,4 +19,4 @@ Roadmap Belajar R :
 15. Visualisasi Data dengan ggplot2✔
 
 Implementasi R :
-2.1 Regresi Logistik ✔
+2.1. Regresi Logistik ✔
