@@ -20,5 +20,5 @@ Roadmap Belajar R :
 
 Implementasi R :
 <br>
- 2.1 Regresi Logistik di R✔
+ 2.1 Regresi Logistik di R✔<br>
  2.2 Algoritma Apriori di R ✔
