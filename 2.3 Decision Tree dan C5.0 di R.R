@@ -45,6 +45,7 @@ df.tes <- df.decision[n==2,]
 library(party)
 predictor <- RainTomorrow~MinTemp+MaxTemp+Rainfall+Evaporation+Sunshine+WindGustDir+WindGustSpeed+WindDir9am+WindDir3pm+WindSpeed9am+WindSpeed3pm+Humidity9am+Humidity3pm+Pressure9am+Pressure3pm+Cloud9am+Cloud3pm+Temp9am+Temp3pm+RainToday
 tree <- ctree(predictor, data=df.train)
+summary(tree)
 tree
 plot(tree)
 
@@ -54,3 +55,45 @@ table(predict(tree), df.train$RainTomorrow)
 # prediksi data tes
 hasil.tes <- predict(tree, newdata = df.tes)
 table(hasil.tes, df.tes$RainTomorrow)
+
+# Algoritma C5.0 
+set.seed(1234)
+
+# ten cross fold validation into 10
+df.fold <- cut(seq(1, nrow(df.decision)), breaks = 10, labels = F)
+for (i in 1:10) {
+  test.indeks <- which(df.fold==i, arr.ind = T)
+  df.tes.cf <- df.decision[test.indeks, ]
+  df.train.cf <- df.decision[-test.indeks, ]
+  
+}
+
+library(tidyverse)
+library(tidyrules)
+library(C50)
+library(pander)
+library(dplyr)
+
+# membuat model dt c5.0 tree
+tree.c50 <- C5.0(predictor, data = df.train.cf)
+
+# Menampilkan hasil tree-based dt c5.0
+tree.c50
+plot(tree.c50)
+summary(tree.c50) # melihat variable terpenting pada model, variabel yang kurang penting bisa dihapus di predictor
+
+# Menghitung akurasi dengan tabel confusion matrix
+table(predict(tree.c50, df.tes.cf), df.tes.cf$RainTomorrow)
+
+# Membuat model rule
+rules.c50 <- C5.0(predictor, data=df.train.cf, rules=T)
+summary(rules.c50)
+
+# Menyusun rule berdasarkan hasil yang paling mempengaruhi
+rules.c50$output %>%
+  stringr::str_sub(start = 1, end = 500) %>%
+  writeLines()
+
+# Menampilkan rule untuk digunakan
+tr_att <- tidyRules(rules.c50)
+tr_att
