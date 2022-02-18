@@ -22,4 +22,5 @@ Implementasi R :
 <br>
  2.1 Regresi Logistik di R✔ (still trying to understand it)<br>
  2.2 Algoritma Apriori di R ✔ <br>
- 2.3 Algoritma Decision Tree dan C5.0 di R ✔
+ 2.3 Algoritma Decision Tree dan C5.0 di R ✔ <br>
+ 2.4 Algoritma K-Means Clustering di R ✔
